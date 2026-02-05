@@ -275,11 +275,11 @@ This implementation plan breaks down the Urban Stress Map v2 platform into discr
     - Implement auto-scaling based on system load
     - _Requirements: 9.6_
 
-  - [ ]* 14.3 Write property test for batch processing scalability
+  - [ ] 14.3 Write property test for batch processing scalability
     - **Property 11: Batch Processing Scalability**
     - **Validates: Requirements 4.3, 9.4**
 
-  - [ ]* 14.4 Write property test for horizontal scaling and caching
+  - [ ] 14.4 Write property test for horizontal scaling and caching
     - **Property 22: Horizontal Scaling and Caching Optimization**
     - **Validates: Requirements 9.5, 9.6**
 
@@ -296,7 +296,7 @@ This implementation plan breaks down the Urban Stress Map v2 platform into discr
     - Implement monitoring and health checks for all components
     - _Requirements: System integration_
 
-  - [ ]* 15.3 Write integration tests for complete system
+  - [ ] 15.3 Write integration tests for complete system
     - Test end-to-end workflows from data ingestion to user interface
     - Verify all components work together correctly
     - Test error handling and recovery scenarios
@@ -307,7 +307,7 @@ This implementation plan breaks down the Urban Stress Map v2 platform into discr
 
 ## Notes
 
-- Tasks marked with `*` are optional and can be skipped for faster MVP development
+- All tasks are required for comprehensive implementation from the start
 - Each task references specific requirements for traceability
 - Property-based tests validate universal correctness properties using Hypothesis (Python) and fast-check (TypeScript)
 - Unit tests focus on specific examples, edge cases, and integration points
